@@ -1,0 +1,136 @@
+/*
+TODO Mettre à jour le CSS
+ */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ol, ul {
+  list-style-type: none;
+}
+
+/***/
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  width: 36em;
+  margin: 0 auto;
+}
+
+.js-enabled {
+  .main-nav-wrapper {
+    position: absolute;
+    top: 0;
+    background-color: #C61128;
+    line-height: 2em;
+    width: 36em;
+    height: 2em;
+  }
+
+  .main-nav a {
+    display: block;
+    line-height: 2em;
+    color: white;
+    padding: 0 1em;
+    text-decoration: none;
+  }
+
+  .main-nav > li {
+    float: left;
+    margin: 0;
+    width: 12em;
+  }
+
+  .main-nav > li > a {
+    font-family: Georgia, serif;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    font-size: 1em;
+  }
+
+  .main-nav > li > a:hover {
+    background-color: white;
+    color: #C61128;
+    cursor: text;
+  }
+
+  .main-nav ul {
+    display: none;
+    background-color: #C61128;
+    opacity: 0.7;
+    padding: 0.5em 0;
+  }
+
+  .main-nav ul a {
+    font-weight: normal;
+    font-size: 0.8em;
+  }
+
+  .main-nav ul a:hover {
+    background-color: #931128;
+  }
+
+  .main-nav-wrapper {
+    height: 2em;
+  }
+
+  .main-nav a {
+    display: block;
+    line-height: 2em;
+    color: white;
+    padding: 0 1em;
+    text-decoration: none;
+  }
+
+  .main-nav > li {
+    float: left;
+    margin: 0;
+    width: 12em;
+  }
+
+  .main-nav > li > a {
+    font-family: Georgia, serif;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    font-size: 1em;
+  }
+
+  .main-nav > li > a:hover {
+    background-color: white;
+    color: #C61128;
+    cursor: text;
+  }
+
+  .main-nav ul {
+    background-color: #C61128;
+    opacity: 0.9;
+    padding: 0.5em 0;
+  }
+
+  .main-nav ul a:hover {
+    background-color: #931128;
+  }
+
+  .main-nav li.hide ul {
+    display: none;
+  }
+
+  .main-nav li.hide a {
+    background-color: #C61128;
+    color: white;
+  }
+
+  .main-nav li.show ul {
+    display: block;
+    background-color: #C61128;
+  }
+
+  .main-nav li.show a {
+    background-color: white;
+    color: #C61128;
+  }
+
+  .main-nav-wrapper {
+    margin-top: 1rem;
+  }
+}
